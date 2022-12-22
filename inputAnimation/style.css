@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form-control{
+    margin:1rem;
+    position: relative;
+    width:300px;
+}
+
+.form-control input{
+    border:none;
+    border-bottom: 2px solid #333;
+    display:block;
+    font-size:1.2rem;
+    padding: 5px;
+    width:100%;
+    transition: 0.1s ease-in;
+}
+
+.form-control input:focus{
+    outline:none;
+    border-bottom:2px solid darksalmon;
+}
+
+.form-control label{
+    position:absolute;
+    top:10px;
+    font-size: 18px;
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span{
+    color:red;
+    transform:translateY(-30px);
+}
+
+.form-control label span{
+    display:inline-block;
+    transition:0.3s ease;
+}

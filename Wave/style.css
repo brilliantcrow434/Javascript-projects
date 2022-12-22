@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    overflow:hidden;
+    background-color:rgb(14, 139, 223);
+}
+
+
+
+.container{
+    margin:5rem;
+    height: 400px;
+    width: 400px;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+.circle{
+    height:15px;
+    width:15px;
+    background-color:white;
+    border-radius: 50%;
+    margin-right:5px;
+    margin:0.1rem 0.3rem;
+    transition:transform 3s linear;
+}
+
+.circle.grow{
+    transform:scale(2)
+}

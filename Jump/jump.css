@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    background:black;
+}
+
+#canvas{
+    position:relative;
+}
+
+.over{
+    position:absolute;
+    top:40%;
+    left:40%;
+    color:white;
+    height:150px;
+    width:220px;
+    background:rgb(23, 133, 167);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+    z-index:+1;
+    font-size:1.25rem;
+    padding:0.5rem;
+    border-radius: 10px;
+    opacity:0;
+    
+}
+

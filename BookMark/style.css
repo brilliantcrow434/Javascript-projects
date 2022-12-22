@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h2{
+    text-align:center;
+    margin:1rem 0;
+}
+
+
+.container{
+    height:100vh;
+    background:rgba(6, 74, 129, 0.884);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    background:white;
+    height:fit-content;
+    width:fit-content;
+    display:flex;
+    flex-direction:column;
+    padding:0.5rem;
+    margin:1rem;
+    border-radius: 20px;
+    max-width:600px;
+}
+
+.box label{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.box input{
+    margin:0.5rem;
+    height:10%;
+    font-size:1rem
+}
+
+.box button{
+    cursor:pointer;
+    border:none;
+    outline:none;
+    background:rgb(53, 113, 223);
+    height: 10%;
+    border-radius: 10px;
+    width:fit-content;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    left:40%;
+    padding:0.5rem;
+    font-size: 1.5rem;
+    color:white;
+
+}
+
+h1{
+    color:white;
+ 
+}
+footer{
+    position:absolute;
+    bottom:5px;
+}
+
+.bookmarks{
+   height:fit-content;
+   width:fit-content;
+   background:white;
+   display:flex;
+   flex-wrap: wrap;
+   overflow:auto;
+}
+
+.book{
+    background:grey;
+    width: 150px;;
+    height:100px;
+    text-align:center;
+    margin: 5px;
+
+    
+}
+.book button a{
+    background:white;
+    text-decoration:none;
+    color:black;
+}

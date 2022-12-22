@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="tick.css">
+</head>
+<body>
+<div class="holder">
+    <div class="selection">
+        <header>Tic-Tac-Toe</header>
+        <div class="opponent">
+            <p>Select Opponent</p>
+            <div class="opponent-option">
+                <button class="computer">Computer</button>
+                <button class="friend">Friend</button>
+            </div>
+        </div>
+        <div class="option">
+            <p>Select Weapon</p>
+        </div>
+        <div class="btns">
+            <button name ='x' class="playerx">Player X</button>
+            <button name = 'o' class="playero">Player O</button>
+        </div>
+            <button class="play active">play</button>
+    </div>
+   <div class="details">
+       <div class="x active">X-Turn</div>
+       <div class="o">O-Turn</div>
+   </div>
+    <div class="container">
+        <div class="box one" id="0"></div>
+        <div class="box two" id="1"></div>
+        <div class="box three" id="2"></div>
+        <div class="box four" id="3"></div>
+        <div class="box five" id="4"></div>
+        <div class="box six" id="5"></div>
+        <div class="box seven" id="6"></div>
+        <div class="box eight" id="7"></div>
+        <div class="box nine" id="8"></div>
+    </div>
+
+    <div class="output">
+        <h1>Player-X Won</h1>
+        <button id="replay">Replay</button>
+    </div>
+</div>
+    
+    <script src="tick.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: grey;
+}
+
+.app h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top:1rem;
+}
+
+.cash-flow{
+    margin:1rem;
+    width: 100%;
+    font-size:1.5rem;
+    padding:0.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:5px;
+    box-shadow: 0 1px 4px 1px rgba(199,199,199,0.9);
+
+}
+
+.income-section{
+    padding-right:1rem;
+    border-right: 3px solid #b5b5b5;
+}
+
+.expense-section{
+    padding-left:1rem;
+}
+
+#income{
+    color:green;
+    text-align: center;
+}
+
+#expenses{
+    color:red;
+    text-align: center;
+}
+.transaction-history h2{
+    text-align: center;
+}
+.transaction-history li{
+    list-style:none;
+    font-size:1.2rem;
+
+}
+
+
+.history{
+    margin: 1rem;
+    display:flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 1px 4px 1px rgba(199,199,199,1);
+}
+
+.history button{
+    width: 20px;
+    margin-left: 5px;
+}
+
+.income-amount{
+    color:green;
+    font-size:1.2rem;
+}
+.expense-amount{
+    color:red;
+    font-size:1.2rem;
+}
+
+
+
+.form-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+}
+
+label{
+    font-size:1.2rem;
+}
+
+form input{
+    margin-bottom: 0.5rem;
+    height:30px;
+    width:250px;
+}
+
+form button{
+    height:30px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    color:white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#income-btn{
+    background:green
+    
+}
+
+#expense-btn{
+    background:red;
+}

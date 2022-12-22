@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1{
+    text-align:center;
+}
+.contacts{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    padding:20px;
+    margin-left:40vw;
+    background:green;
+    width: 300px;
+}
+
+.contact-head{
+    margin:20px;
+}
+
+li{
+    list-style:none;
+}

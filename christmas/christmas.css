@@ -1,0 +1,166 @@
+.container{
+    background:skyblue;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.face{
+    background:white;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    position:relative;
+    left:38px;
+    
+}
+.body{
+    background:white;
+    height:180px;
+    width:180px;
+    border-radius: 50%;
+    position:relative;
+    bottom:12px;
+}
+.shirt{
+    
+    position:relative;
+    bottom:120px;
+    left:80px;
+    
+}
+.shirt button{
+    display:block;
+    padding:5px;
+    margin:5px;
+    border-radius:50%;
+    border:none;
+    background:pink;
+    
+}
+.eye1{
+    height:15px;
+    width:20px;
+    background:black;
+    position:relative;
+    bottom:300px;
+    left:50px;
+    border-radius: 20px;
+}
+.eye2{
+    height:15px;
+    width:20px;
+    background:black;
+    position:relative;
+    bottom:315px;
+    left:100px;
+    border-radius: 20px;
+}
+.nose{
+    height:0px;
+    width:0px;
+    border-top: 30px solid yellow;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    position:relative;
+    bottom:310px;
+    left:80px;
+}
+.hand1{
+    width:5px;
+    height:70px;
+    background:brown;
+    transform:rotate(40deg);
+    position:relative;
+    bottom:225px;
+}
+.hand2{
+    width:5px;
+    height:70px;
+    background:brown;
+    transform:rotate(-40deg);
+    position:relative;
+    left:180px;
+    bottom:300px;
+}
+.scarf{
+    background:red;
+    height:30px;
+    width:80px;
+    position:relative;
+    bottom:440px;
+    left:50px;
+    border-radius:5px;
+}
+.scarfHelp{
+    background:red;
+    height:50px;
+    width:20px;
+    transform:rotate(320deg);
+    position:relative;
+    bottom:460px;
+    left:110px;
+}
+.scarfHelp2{
+    background:red;
+    height:45px;
+    width:20px;
+    transform:rotate(10deg);
+    position:relative;
+    bottom:500px;
+    left:90px;
+}
+.snow{
+    background-image: url(snow.png)
+}
+.snow1{
+    width:5px;
+    height:5px;
+    background:white;
+    border-radius:50%;
+    position:ab
+}
+
+.snow2{
+    width:5px;
+    height:5px;
+    background:white;
+    border-radius:50%; 
+}
+.snow3{
+    width:5px;
+    height:5px;
+    background:white;
+    border-radius:50%; 
+}
+.snow4{
+    width:5px;
+    height:5px;
+    background:white;
+    border-radius:50%; 
+}
+.snow5{
+    width:5px;
+    height:5px;
+    background:white;
+    border-radius:50%; 
+}
+.snow6{
+    width:5px;
+    height:5px;
+    background:white;
+    border-radius:50%; 
+}
+.snow7{
+    width:5px;
+    height:5px;
+    background:white;
+    border-radius:50%; 
+}
+.snow8{
+    width:5px;
+    height:5px;
+    background:white;
+    border-radius:50%; 
+}

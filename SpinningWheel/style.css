@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    background:red;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.wheel{
+    width:0px;
+    height:0px;
+    border-width: 240px;
+    border-style:solid;
+    border-radius: 50%;
+    color:white;
+}
+
+.one{
+    clip-path: polygon(100%,50%,0,20%,0,86%);
+    background:orange;
+}
+.two{
+    width: 30px;
+    height: 30px;
+    background:purple;
+}

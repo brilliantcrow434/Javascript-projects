@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.heart{
+    position:fixed;
+    top:-5vh;
+    left:50vw;
+    animation:fall 3s linear;
+}
+
+@keyframes fall {
+    from{
+        transform:translate(-1vh);
+    }
+    to{
+        transform:translateY(105vh);
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    margin:5px 5px;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.cards img{
+    width: 90px;
+    height: 90px;
+}
+
+.container{
+    height:400px;
+    width:400px;
+    display:flex;
+    flex-wrap:wrap;
+    perspective: 1000px;
+}
+
+.back{
+ position:absolute;
+ backface-visibility:hidden;
+} 
+
+.flip-card{
+    transform: rotateY(180deg);
+}

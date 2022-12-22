@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:teal;
+}
+
+.tri{
+    height:100px;
+    width:100px;
+    position:relative;
+}
+
+.tri::after,.tri::before{
+    content:''; 
+    border:50px solid transparent;
+    width:0;
+    height:0;
+    border-bottom-color:white;
+    position:absolute;
+    top:0;
+
+}
+
+.tri::before{
+    animation:rotateA 2s linear infinite;
+}
+
+@keyframes rotateA {
+    to{
+     transform:rotate(130deg)
+    }
+}
+
+.tri::after{
+    animation:rotateB 2s linear  infinite
+}
+
+@keyframes rotateB {
+   to{transform:rotate(-130deg)}
+}

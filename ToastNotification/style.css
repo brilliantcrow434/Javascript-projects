@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.toast{
+    height: 40px;
+    width: 150px;
+    background:rebeccapurple;
+    font-size: 30px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    color:white;
+    font-size:1.2rem;
+    padding:10px;
+}

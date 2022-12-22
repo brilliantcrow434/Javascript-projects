@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    width: 100vw;
+    height:100vh;
+}
+
+h1{
+    font-weight: 600;
+}
+
+small{
+    font-weight: 100;
+    color:#b5b5b5
+}
+
+.box{
+    margin:0.5rem;
+    background:rgba(128, 128, 128, 0.856);
+    padding:1rem;
+    border-radius:5px;
+}
+
+h3{
+    font-size:1.5rem;
+}
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+
+}
+.form-control{
+    height:30px;
+}
+.btn{
+    width:3rem;
+    padding:0.4rem;
+    background:rgba(43, 109, 207, 0.87);
+    border:none;
+    outline:none;
+    cursor:pointer;
+    margin-top: 0.5rem;
+    color:white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    filter:brightness(0.5);
+    transform:scale(0.9);
+}
+
+.issue-box{
+    width:200px;
+    height:200px;
+    background:yellow;
+    margin-top:20px;
+}
